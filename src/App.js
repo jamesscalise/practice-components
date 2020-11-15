@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Sample from './Sample.js'
+import Comp from './Comp'
+import SecondComp from './SecondComp'
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+      <Sample title={"this the title"}/>
+      <Comp text ={"this is text"}/>
+      <SecondComp text={'we love text'}/>
       </header>
     </div>
   );
