@@ -7,7 +7,7 @@ const Sample = ({title}) => {
     return (
         <div>Here is the sample component! {title}
             <div>Count: {count}</div>
-            <button>Click this to increase the count</button>
+            <button onClick = {() => setCount(count + 1)}>Click this to increase the count</button>
         </div>
     )
 
